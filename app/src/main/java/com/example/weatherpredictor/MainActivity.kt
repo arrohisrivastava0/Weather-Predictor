@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         val baseUrl = "https://datasensors.blob.core.windows.net/data/"
         val accKey =
-            "RAOMDXsVgqe3f2YrKo3dwHLY8SIWSEdb0x0Rcg0UbABZ4E6WyQ1B8D/IdS6rvpd8QfucaYJ11QR7+AStpxJzlA=="
+            "<YOUR_ACCESS_KEY>"
 
         val retrofit = Retrofit.Builder()
             .baseUrl("$baseUrl?${accKey}")
