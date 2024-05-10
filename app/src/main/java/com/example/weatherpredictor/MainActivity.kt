@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         humidtv=findViewById(R.id.humidTV)
         resultTv = findViewById(R.id.resultTV)
 
-        val baseUrl = "https://datasensors.blob.core.windows.net/data/"
+        val baseUrl = "https://<YOUR_ACCOUNT_NAME>.blob.core.windows.net/<YOUR_STORAGE_NAME>/"
         val accKey =
             "<YOUR_ACCESS_KEY>"
 
